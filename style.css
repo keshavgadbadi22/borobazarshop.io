@@ -1,0 +1,685 @@
+/*https://borobazar.vercel.app*/
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700&display=swap');
+
+
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: 'Inter', sans-serif;
+	/*font-family: 'Manrope', sans-serif;*/
+}
+
+html{
+	font-size: 15px;
+}
+
+img{
+	max-width: 100%;
+	height: auto;
+}
+
+/*navbar starts*/
+
+#mynavbar{
+	background-color:#fff;
+	padding-top: 0.4rem;
+	padding-bottom: 1rem;
+}
+
+.navbar-brand img{
+	width: 100%;
+}
+
+#navbar-nav-new li a{
+	color: #000;
+	margin-top: 0.5rem;
+	text-transform: capitalize;
+	font-size: 1rem;
+	font-weight: 400;
+}
+
+#navbar-icons li a{
+	color: #000;
+	margin-top: 0.5rem;
+	text-transform: capitalize;
+	font-size: 1rem;
+	font-weight: 400;
+}
+
+.navbar-toggle span{
+	color: #000;
+	background-color: #000;
+}
+/*navbar ends*/
+
+/*banner part starts*/
+
+.banner{
+	width: 100%;
+	height: 100vh;
+	background-image: url("images/banner-4.webp");
+	background-repeat: no-repeat;
+	background-position: center;
+	position: relative;
+	top: -1.3rem;
+}
+
+.banner .content{
+	text-align: center;
+	margin-top: 15rem;
+}
+
+.main {
+    width: 50%;
+    margin: 30px auto;
+}
+
+.banner .content h1 span{
+	display: block;
+}
+
+.banner .content h1{
+	font-size: 3.7rem;
+	font-family: 'Manrope', sans-serif;
+	color: #0b4635;
+	font-weight: 700;
+}
+
+.banner .content p span{
+	display: block;
+}
+
+.banner .content p {
+	margin-top: 1.4rem;
+	font-size: 1.2rem;
+	color: #000000cc;
+}
+
+/* text input with search icon */
+#input{
+	margin-top: 3rem;
+	width: 60%;
+	position: relative;
+	left: 14rem;
+}
+/*banner part ends*/
+
+/*second part starts*/
+
+.second-part{
+	position: relative;
+	top: -3rem;
+}
+
+.second-part .content{
+	padding: 0px 2rem
+}
+
+.second-part .content #box-1{
+	background-color: rgb(255, 238, 214);
+}
+
+.second-part .content #box-2{
+	background-color:rgb(217, 236, 210);
+}
+
+.second-part .content #box-3{
+	background-color:rgb(219, 229, 239);
+}
+
+.second-part .content #box-4{
+	background-color:rgb(212, 219, 212);
+}
+
+.second-part .content .box{
+	padding: 0.5rem 0rem;
+	align-items: center;
+	display: flex;
+	width: 23%;
+	margin-left: 1rem;
+}
+
+.second-part .content .box .images img{
+	width: 100%;
+	height: auto;
+	transition: transform .2s;
+}
+
+.second-part .content .box .images img:hover{
+	  transform: scale(1.1);
+}
+
+.second-part .content .box .para h4{
+	font-family: 'Manrope', sans-serif;
+  --tw-text-opacity: 1;
+    color: rgb(0 0 0/var(--tw-text-opacity));
+    font-weight: 600;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    margin-bottom:0.7rem;
+}
+
+/*second part ends*/
+
+/*Thrid part starts*/
+
+.thrid-part{
+	margin: 1rem 0rem;
+}
+
+.thrid-part h4{
+	font-size: 1.6rem;
+	color: #000;
+	font-weight: 600;
+}
+
+.thrid-part p{
+	font-size: 1.1rem;
+	
+}
+
+.thrid-part .content{
+	margin: 1rem 0rem;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.thrid-part .content .box{
+	text-align: center;
+	width: 13%;
+	height: auto;
+	margin-top: 2rem;
+}
+
+.thrid-part .content .box img{
+	background-color: #f2f2f2;
+	object-fit: cover;
+	border-radius: 9999px;
+	aspect-ratio: 1/1;
+	max-width: auto;
+	height: auto;
+	flex-shrink: 0;
+	transition: transform .2s;
+}
+
+.thrid-part .content .box img:hover{
+	transform: scale(1.1);
+}
+
+.thrid-part .content .box h5{
+	font-size: 1rem;
+	line-height: 1.5rem;
+	    --tw-text-opacity: 1;
+    color: rgb(0 0 0/var(--tw-text-opacity));
+    text-transform: capitalize;
+    font-weight: 500;
+    margin-top: 1.1rem;
+}
+
+/*Thrid part ends*/
+
+/*four part starts*/
+
+.four-part{
+	margin: 3.5rem 0rem;
+}
+
+.four-part .upper{
+	text-align: center;
+}
+
+.four-part .upper h4{
+	font-size: 1.6rem;
+	color: #000;
+	font-weight: 500;
+}
+
+.four-part .upper p{
+	font-size: 1.1rem;
+}
+
+.four-part .four-part-content{
+	margin: 2rem 2rem;
+}
+
+.four-part  .packes{
+	width: 15%;
+}
+ 
+.four-part .content{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+
+.four-part  .packes img{
+	transition: transform .2s;
+}
+
+.four-part  .packes img:hover{
+	  transform: scale(1.1);
+}
+
+.four-part .packes button{
+	margin-left: auto;
+	background-color: #000;
+	width: 2.5rem;
+	height: 2.5rem;
+	--tw-text-opacity: 1;
+    color: rgb(255 255 255/var(--tw-text-opacity));
+    font-size: 1.7rem;  
+    border-radius: 9999px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    --tw-bg-opacity: 1;
+    background-color: rgb(2 178 144/var(--tw-bg-opacity));
+ 	z-index: 1;
+ 	position: relative;
+ 	top: -2rem;
+ 	border: none;
+ }
+
+ .four-part  .packes .para{
+ 	margin-bottom: 0.25rem;
+ 	margin-left: -0.25rem;
+ 	margin-right: -0.25rem;
+ }
+
+  .four-part  .caption{
+  	position: relative;
+  	top: -0.8rem;
+  }
+
+  .four-part .packes .para span{
+  	font-size: 1rem;
+  	    color: rgb(0 0 0/var(--tw-text-opacity));
+  	    font-weight: 600;
+  	    padding-right: 0.6rem;
+}
+
+ .four-part .packes h5{
+    	font-size: 1rem;
+ }
+
+/*four part ends*/
+
+/*five part starts*/
+
+.five-part{
+	margin: 3rem 0rem;
+}
+
+/*five part ends*/
+
+/*six part starts*/
+
+.six-part{
+	margin-bottom: 2rem;
+}
+
+.six-part .upper{
+	text-align: center;
+}
+
+.six-part .upper h4{
+	font-size: 1.6rem;
+	color: #000;
+	font-weight: 500;
+}
+
+.six-part .upper p{
+	font-size: 1.1rem;
+}
+
+.six-part .content{
+	margin-top: 2rem;
+	padding: 0rem 2rem;
+}
+
+.six-part .content h4{
+	color: #000;
+	font-size: 1rem;
+}
+
+.six-part .thumbnail img:hover{
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+  transform: scale(1.1);
+}
+
+/*six part ends*/
+
+/*seven part starts*/
+
+.seven-part{
+	width: 100%;
+	margin: 4rem 0rem;
+	background-color: #f2f2f2;
+}
+
+.seven-part .left-part{
+	margin-top: 3rem;
+}
+
+.seven-part .left-part h2 span{
+	display: block;
+}
+
+.seven-part .left-part h2 {
+	font-size: 2.5rem;
+	line-height: 3.2rem;
+	font-family: 'Manrope', sans-serif;
+	color: #000;
+	font-weight: 700;
+}
+
+.seven-part .left-part p{
+	font-size: 1.1rem;
+	padding-right: 2rem;
+	margin-top: 1.3rem;
+	line-height: 2.4rem;
+}
+
+.seven-part .left-part .online-pay{
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	display: flex;
+
+}
+
+.seven-part .left-part .online-pay a{
+	margin-left: 1rem;
+}
+
+.seven-part .left-part .online-pay img{
+	border-radius: 0.375rem;
+	width: 100%;
+	height: auto;
+}
+
+/*seven part ends*/
+
+/*footer part starts*/
+
+.footer{
+	padding-bottom: 2rem;
+}
+
+.footer .content{
+	padding: 0rem 2rem;
+}
+
+.footer .content .home{
+	padding-right: 4rem;
+}
+
+.footer .content .home img{
+	height: auto;
+}
+
+.footer .content .home p{
+	margin-top: 1.5rem;
+	font-size: 1rem;
+	line-height: 2rem;
+	    color: rgb(89 89 89/var(--tw-text-opacity));
+}
+
+.footer .content .about h4{
+	color: #000;
+}
+
+.footer .content .about .list{
+	margin-top: 1.8rem;
+	list-style: none;
+}
+
+.footer .content .about .list li{
+	line-height: 1.9rem;
+}
+
+.footer .content .about .list li a{
+	
+	color: rgb(89 89 89/var(--tw-text-opacity));
+}
+
+.footer .content .icons{
+	margin-top: 1.5rem;
+}
+
+.footer .content .icons span{
+	font-size: 1.4rem;
+	margin-left: 0.5rem;
+}
+
+.copy-right{
+	padding: 1rem;
+	text-align: center;
+}
+
+.copy-right p{
+	font-size: 1.1rem;
+}
+
+/*footer part ends*/
+
+/*media query starts*/
+
+/*max width 1200 starts*/
+
+@media (max-width:1200px){
+	.second-part{
+	top: 0rem;
+	padding-bottom: 2.5rem;
+}
+
+.four-part  .packes{
+	width: 24%;
+}
+
+.seven-part .left-part h2{
+	font-size: 2rem;
+	line-height: 3rem;
+}
+
+.seven-part .left-part p {
+    font-size: 1rem;
+    margin-top: 1rem;
+    line-height: 2rem;
+}
+
+.seven-part .left-part .online-pay {
+    padding-bottom: 3rem;
+}
+
+/*max width 992px starts*/
+
+@media (max-width:992px){
+
+	.banner .content {
+    margin-top: 18rem;
+}
+
+	.banner .content h1{
+	font-size: 2.8rem;
+	line-height: 3.6rem;
+}
+
+	.banner .content p{
+		line-height: 2rem;
+	}
+
+	#input{
+		display: none;
+}
+
+	.second-part .content .box{
+	padding: 0.5rem 0rem;
+	display: flex;
+	width: 100%;
+	text-align: center;
+	flex-direction: column;
+	margin-top: 1.6rem;
+}	
+
+	.thrid-part .content .box {
+    width: 19%;
+}
+
+	.seven-part .right-part{
+		display: none;
+	}
+
+	.footer .content{
+	padding: 0rem 0.6rem;
+}
+
+}
+
+/*media query 767px starts*/
+
+@media (max-width:767px){
+	.thrid-part .content .box {
+    width: 31%;
+}
+
+.four-part .four-part-content{
+	margin: 2rem 0rem;
+}
+
+.four-part  .packes{
+	width: 32%;
+}
+
+.six-part .content {
+    padding: 0rem 0rem;
+}
+
+.second-part .content{
+	padding: 0px 0rem;
+	margin-right: 2rem;
+}
+
+}
+
+
+/*media query 581px starts*/
+
+@media (max-width:581px){
+	.banner .content {
+    margin-top: 12rem;
+}
+
+	.banner .content h1 {
+    font-size: 2.2rem;
+    line-height: 3rem;
+}
+
+
+
+.banner{
+	height: 70vh;
+}
+
+.banner .content p {
+    line-height: 1.7rem;
+    font-size: 1.1rem;
+}
+
+.four-part  .packes{
+	width: 48%;
+}
+
+.seven-part .left-part {
+    text-align: center;
+}
+
+.seven-part .left-part h2 {
+    font-size: 1.5rem;
+    line-height: 2.4rem;
+}
+
+.seven-part .left-part p span{
+	display: block;
+	font-size: 0.9rem;
+}
+
+}
+
+/*max width 462px starts*/
+
+@media (max-width:462px){
+	.banner .content {
+    margin-top: 10rem;
+}
+
+.banner .content h1 {
+    font-size: 2rem;
+    line-height: 2.7rem;
+}
+
+.banner .content p {
+    line-height: 1.5rem;
+    font-size: 1rem;
+}
+
+.seven-part .left-part h2 {
+    font-size: 1.4rem;
+    line-height: 2.2rem;
+}
+
+.seven-part .left-part p {
+    font-size: 0.9rem;
+
+}
+
+.thrid-part h4 {
+    font-size: 1.2rem;
+}
+
+.thrid-part p {
+    font-size: 1rem;
+}
+
+.four-part .upper h4 {
+    font-size: 1.2rem;
+}
+
+.four-part .upper p{
+	font-size: 1rem;
+}
+
+.copy-right p {
+    font-size: 1rem;
+}
+
+}
+
+/*max width 415px starts*/
+
+@media (max-width:415px){
+	.banner .content {
+    margin-top: 13rem;
+}
+}
+
+
+@media (max-width:340px){
+	.banner .content {
+    margin-top: 12rem;
+}
+}
+
+
+/*max width 296px starts*/
+
+@media (max-width:296px){
+		.banner .content {
+    margin-top: 8rem;
+}
+
+}
